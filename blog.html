@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="container mx-auto">
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-6">
+            <div class="md:flex">
+              <div class="md:flex-shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://tailwindcss.com/img/card-top.jpg" alt="Scope of variables">
+              </div>
+              <div class="p-8">
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Scope of var, let, and const</div>
+                <p class="mt-2 text-gray-500">Variables in JavaScript have different scopes and behaviors based on their declaration keyword.</p>
+                <ul class="list-disc pl-6 mt-2 text-gray-500">
+                  <li><span class="font-semibold">var:</span> Globally or function scoped. Can be updated and re-declared.</li>
+                  <li><span class="font-semibold">let:</span> Block scoped. Can be updated but not re-declared.</li>
+                  <li><span class="font-semibold">const:</span> Block scoped. Cannot be updated or re-declared. Must be initialized.</li>
+                </ul>
+                <p class="mt-2 text-gray-500">Variables are hoisted to the top of their scope. var variables are initialized with undefined, while let and const variables are not initialized.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-6">
+            <div class="md:flex">
+              <div class="md:flex-shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://tailwindcss.com/img/card-top.jpg" alt="Use cases of null and undefined">
+              </div>
+              <div class="p-8">
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Use Cases of null and undefined</div>
+                <p class="mt-2 text-gray-500">In JavaScript, null and undefined are used to represent absence of value, but they have different meanings and use cases:</p>
+                <div class="mt-2 text-gray-500">
+                  <h3 class="font-semibold">Null:</h3>
+                  <p>Used as an assignment value to indicate absence of value. It's a type of object.</p>
+                </div>
+                <div class="mt-2 text-gray-500">
+                  <h3 class="font-semibold">Undefined:</h3>
+                  <p>Occurs when a variable is declared but not initialized. Its data type is undefined.</p>
+                </div>
+                <p class="mt-2 text-gray-500">Performing arithmetic operations on null converts it to 0, while operations on undefined result in NaN.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+              <div class="md:flex-shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://tailwindcss.com/img/card-top.jpg" alt="REST API">
+              </div>
+              <div class="p-8">
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">REST API</div>
+                <p class="mt-2 text-gray-500">A REST API (Representational State Transfer) is an architectural style for designing networked applications. It follows principles like statelessness, uniform interface, and resource-based architecture.</p>
+                <p class="mt-2 text-gray-500">REST APIs typically use standard HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources.</p>
+              </div>
+            </div>
+          </div>
+          
+    </main>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>P-tube</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="container mx-auto">
+    <div class="navbar bg-base-100 mt-3">
+      <div class="navbar-start">
+        <img src="assests/Logo.png" alt="" srcset="" />
+      </div>
+      <div class="navbar-center">
+        <button onclick="sort()" class="btn bg-gray-100">Sort By view</button>
+      </div>
+      <div class="navbar-end">
+        <a href="./blog.html"
+          ><button class="btn-error btn text-white">Blog</button></a
+        >
+      </div>
+    </div>
+
+    <main>
+      <section>
+        <div
+          id="link-container"
+          class="mt-10 md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
+        ></div>
+      </section>
+
+      <section class="mt-10">
+        <div
+          id="video-container"
+          class="max-w-[1440px] mt-10 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-center justify-center justify-items-center"
+        ></div>
+      </section>
+    </main>
+
+    <script src="js/videos.js"></script>
+  </body>
+</html>
